@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "title": "Beauty and the beast",
+      "body": "lorem ipsum...",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Welcome party!",
+      "body": "lorem ipsum...",
+      "author": "yoshi",
+      "id": 2
+    },
+    {
+      "title": "Web dev top tips",
+      "body": "lorem ipsum...",
+      "author": "hemo",
+      "id": 3
+    },
+    {
+      "title": "Harry Potter",
+      "body": "adsgasdifhasdfhsadiofds",
+      "author": "Harry",
+      "id": 4
+    },
+    {
+      "title": "gdty",
+      "body": ",khyf",
+      "author": "aawsa",
+      "id": 5
+    }
+  ]
+}

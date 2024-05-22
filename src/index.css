@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar{
+  font-size:medium;
+  padding:15px;
+  display: flex;
+  align-items: center;
+  margin:0 auto;
+  max-width: 750px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.navbar h1{
+  color: #000000;
+}
+.navbar .links{
+  margin-left:auto;
+  position: relative;
+  display: flex;
+}
+.navbar a{
+  text-decoration: none;
+  margin-left: 12px;
+  padding:6px;
+  cursor: pointer;
+}
+.navbar a:hover{
+  color:#f1356d;
+}
+.content{
+  max-width: 750px;
+  margin:40px auto;
+  padding:20px;
+  margin-top: 15px;
+}
+.home .Links{
+  display: flex;
+  flex-flow: row-reverse;
+}
+.Links a{
+  text-decoration: none;
+  padding:6px;
+  cursor: pointer;
+}
+.Links a:hover{
+  color:#f1356d;
+}
+.book-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.book-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  zoom:109%;
+}
+.book-preview h2{
+  color:#3bf135;
+}
+.book-preview a{
+  text-decoration: none;
+}
+
+/*book details page*/
+.book-details h2{
+  color:#f1356d;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.book-details div{
+  margin:20px 0;
+}
+.addbook{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.addbook label {
+  text-align: left;
+  display: block;
+}
+.addbook h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.addbook input, .addbook textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.addbook button {
+  background: #00f038;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.issueid{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.issueid label {
+  text-align: left;
+  display: block;
+}
+.issueid h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.issueid input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+/*DataList*/
+.data-list h2{
+  margin:10px;
+}
+.person-data{
+  margin: 10px;
+  border-radius: 15px;
+  border-bottom: #681414;
+}
+.person-data:hover{
+  cursor: pointer;
+  zoom:109%;
+}
+.person-data h4{
+  margin-left: 10px; 
+}
+.person-data h3{
+  color:#f1356d;
+  margin-left: 10px; 
+
+}
+.person-data button{
+  background-color: #fff;
+  border-radius: 14px;
+  border-color:#f1356d
+}
+.data button{
+  margin-top: 10px;
+  background-color: #fff;
+  border-color:#f1356d;
+  margin-left: 10px;
+}
